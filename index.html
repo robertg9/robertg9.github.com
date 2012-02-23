@@ -1,241 +1,264 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
-      body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
 
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
+Name       : DarksadEra
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120203
 
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>robertg9</title>
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">robertg9 Website</a></h1>
 
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="#">Homepage</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Links</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">HTML 5 </a></h2>
+						<p class="meta">Posted by <a href="#">Someone</a> on February 04, 2011
+							&nbsp;&bull;&nbsp; <a href="#" class="comments">Comments (64)</a> &nbsp;&bull;&nbsp; <a href="#" class="permalink">Full article</a></p>
+						<div class="entry">
+							<p><article>
+                                <article>
+                                    <h3>robertg9.github.com</h3>
+                                    <p><a href="robertg9@github.com">Moja Strona na GitHub</a>. Przykladowe uzycie article
 
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
-
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
-
-      #footer {
-        clear: both;
-      }
-
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
-
-
-      #header {
-        background-image: url("assets/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
+                                    </p>
+                                </article>
+                                <h3>Kod :</h3>
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
 
 
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
+                                        &lt;article&gt;  <br>
+                                        &lt;h3&gt;robertg9.github.com&lt;/h3&gt;       <br>
+                                        &lt;p&gt;&lt;a href="robertg9@github.com"&gt;Moja Strona na GitHub&lt;/a&gt;. Przykladowe uzycie article   <br>
 
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
-
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
+                                        &lt;/p&gt;    <br>
+                                        &lt;/article&gt;  <br>
 
 
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
+                                    </code>
+                                </fieldset>
+
+                                <section>
+                                    <h1>section</h1>
+                                    <p>Przykladowe uzycie section...</p>
+                                </section>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;section&gt;   <br>
+                                        &lt;h1&gt;section&lt;/h1&gt;   <br>
+                                        &lt;p&gt;Przykladowe uzycie section...&lt;/p&gt;   <br>
+                                        &lt;/section&gt;     <br>
+                                    </code>
+                                </fieldset>
+                                <h3>NAV</h3>
+                                <nav>
+                                    <a href="/html/">HTML</a> |
+                                    <a href="/html5/">HTML5</a> |
+                                    <a href="/css/">CSS</a> |
+                                    <a href="/css3/">CSS3</a> |
+                                    <a href="/js/">JavaScript</a>
+                                </nav>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;nav&gt;  <br>
+                                        &lt;a href="/html/"&gt;HTML&lt;/a&gt; | <br>
+                                        &lt;a href="/html5/"&gt;HTML5&lt;/a&gt; | <br>
+                                        &lt;a href="/css/"&gt;CSS&lt;/a&gt; |   <br>
+                                        &lt;a href="/css3/"&gt;CSS3&lt;/a&gt; |   <br>
+                                        &lt;a href="/js/"&gt;JavaScript&lt;/a&gt;   <br>
+                                        &lt;/nav&gt;  <br>
+                                    </code>
+                                </fieldset>
+
+                                <h3>Aside</h3>
+                                <aside>
+                                    The <code>&lt;aside&gt;</code> tag defines some content aside from the content it is placed in.      <br>
+                                    The aside content should be related to the surrounding content.
+                                </aside>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;aside&gt;  <br>
+                                        The <code>&lt;aside&gt;</code> tag defines some content aside from the content it is placed in.      <br>
+                                        The aside content should be related to the surrounding content.   <br>
+                                        &lt;/aside&gt;  <br>
+                                    </code>
+                                </fieldset>
+
+                                <h3>Footer</h3>
+                                <footer>Copyright 1999-2050.</footer>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;footer&gt;>Copyright 1999-2050.    &lt;/footer&gt;  <br>
+
+                                    </code>
+                                </fieldset>
+
+                                <h3>Figure</h3>
+                                <figure>
+                                    <img src="1.png" alt="The Pulpit Rock"
+                                         width="304" height="228" />
+                                </figure>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;img src="1.png" alt="The Pulpit Rock"    <br>
+                                        width="304" height="228" /&gt;
+                                    </code>
+                                </fieldset>
+                                <h3>Caption</h3>
+
+                                <caption>Podpis</caption>
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;caption&gt;Podpis&lt;/caption&gt;
+                                    </code>
+                                </fieldset>
+
+                                <h3>a Tag</h3>
+                                <a href="http://robertg9.github.com">robertg9.github.com!</a>
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+                                        &lt;a href="http://robertg9.github.com">robertg9.github.com!&lt;/a&gt;
+                                    </code>
+                                </fieldset>
+                                <h3>Blockquote</h3>
+                                <blockquote>
+                                    DLUUuuuuuuuuuuuuuuuuuuuuuuuuugi Cytat
+                                </blockquote>
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+
+                                        &lt;blockquote&gt;     <br>
+                                        DLUUuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuugi Cytat  <br>
+                                        &lt;/blockquote&gt;
+                                    </code>
+                                </fieldset>
+
+                                <h3>Img</h3>
+                                <img src="1.png" alt="Smiley face" height="242" width="242" />
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+
+                                        &lt;img src="1.png" alt="Smiley face" height="242" width="242" /&gt;
+                                    </code>
+                                </fieldset>
+
+                                <h1>H1</h1>   <h2>H2</h2>   <h3>H3</h3>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+
+                                        &lt;h1&gt;H1  &lt;/h1&gt   &lt;h2&gt;H2  &lt;/h2&gt;  &lt;h3&gt;H3&lt;/h3&gt;
+                                    </code>
+                                </fieldset>
+
+                                <ol>ol</ol>
+                                <p>p</p>
+                                <ul>ul</ul>
+
+                                <fieldset style="border:1px solid #DEB887">
+                                    <code>
+
+                                        &lt;ol&gt;ol  &lt;/ol&gt   &lt;p&gt;p  &lt;/p&gt;  &lt;ul&gt;ul&lt;/ul&gt;
+                                    </code>
+                                </fieldset>
+						</div>
+					</div>
 
 
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
-
-      .filename {
-        font-style: italic;
-      }
-    </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
-    </script>
-  </head>
-  <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://www.ruby-doc.org/core/">Ruby core</a></li>
-              <li><a href="http://www.ruby-doc.org/stdlib/">Ruby standard library</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
-
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
-
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
-
-            <li>
-              <h2>Set up a default route and remove <span class="filename">public/index.html</span></h2>
-              <p>Routes are set up in <span class="filename">config/routes.rb</span>.</p>
-            </li>
-
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:create</code> to create your database. If you're not using SQLite (the default), edit <span class="filename">config/database.yml</span> with your username and password.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div id="footer">&nbsp;</div>
-    </div>
-  </body>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<ul>
+						<li>
+							<h2>Aliquam tempus</h2>
+							<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer hendrerit.</p>
+						</li>
+						<li>
+							<h2>Categories</h2>
+							<ul>
+								<li><a href="#">Aliquam libero</a></li>
+								<li><a href="#">Consectetuer adipiscing elit</a></li>
+								<li><a href="#">Metus aliquam pellentesque</a></li>
+								<li><a href="#">Suspendisse iaculis mauris</a></li>
+								<li><a href="#">Urnanet non molestie semper</a></li>
+								<li><a href="#">Proin gravida orci porttitor</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Blogroll</h2>
+							<ul>
+								<li><a href="#">Aliquam libero</a></li>
+								<li><a href="#">Consectetuer adipiscing elit</a></li>
+								<li><a href="#">Metus aliquam pellentesque</a></li>
+								<li><a href="#">Suspendisse iaculis mauris</a></li>
+								<li><a href="#">Urnanet non molestie semper</a></li>
+								<li><a href="#">Proin gravida orci porttitor</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Archives</h2>
+							<ul>
+								<li><a href="#">Aliquam libero</a></li>
+								<li><a href="#">Consectetuer adipiscing elit</a></li>
+								<li><a href="#">Metus aliquam pellentesque</a></li>
+								<li><a href="#">Suspendisse iaculis mauris</a></li>
+								<li><a href="#">Urnanet non molestie semper</a></li>
+								<li><a href="#">Proin gravida orci porttitor</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>Copyright (c) 2012 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/"> CSS Templates</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
 </html>
