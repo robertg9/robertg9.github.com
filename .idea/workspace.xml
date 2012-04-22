@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bfe2d9-a06d-4352-8982-77e9ee55b1d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chart.html" afterPath="$PROJECT_DIR$/Chart.html" />
     </list>
     <ignored path="robertg9.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="World Population.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/World Population.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="104" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.9615384">
+            <state line="3" column="104" selection-start="124" selection-end="124" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -36,7 +37,7 @@
       <file leaf-file-name="HTML5_table.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5_table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="78" selection-start="189" selection-end="189" vertical-scroll-proportion="97.11539">
+            <state line="11" column="78" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,25 +46,25 @@
       <file leaf-file-name="AT&amp;T.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AT&amp;T.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="104" selection-start="4346" selection-end="4346" vertical-scroll-proportion="-102.65385">
+            <state line="157" column="104" selection-start="4346" selection-end="4346" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="573" selection-end="573" vertical-scroll-proportion="-0.5802048">
+            <state line="10" column="26" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chart.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Chart.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="99" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+            <state line="17" column="13" selection-start="391" selection-end="391" vertical-scroll-proportion="0.48247078">
               <folding />
             </state>
           </provider>
@@ -78,8 +79,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/World Population.html" />
-        <option value="$PROJECT_DIR$/Chart.html" />
         <option value="$PROJECT_DIR$/AT&amp;T.html" />
+        <option value="$PROJECT_DIR$/Chart.html" />
       </list>
     </option>
   </component>
@@ -115,16 +116,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,6 +132,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="robertg9.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -164,14 +165,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="1" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26433122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27388534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -239,35 +240,31 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="99" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/World Population.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="104" selection-start="124" selection-end="124" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5_table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="78" selection-start="189" selection-end="189" vertical-scroll-proportion="97.11539">
-          <folding />
-        </state>
+        <state line="11" column="78" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AT&amp;T.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="104" selection-start="4346" selection-end="4346" vertical-scroll-proportion="-102.65385">
-          <folding />
-        </state>
+        <state line="157" column="104" selection-start="4346" selection-end="4346" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="573" selection-end="573" vertical-scroll-proportion="-0.5802048">
+        <state line="10" column="26" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/World Population.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="104" selection-start="124" selection-end="124" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="391" selection-end="391" vertical-scroll-proportion="0.48247078">
           <folding />
         </state>
       </provider>
